@@ -28,7 +28,7 @@ loginFormElement.addEventListener('submit', function(event) {
       Jika tidak, maka panggil fungsi showPopUp().
    */
   /* Comment : Memastikan bahwa nilai email dan password
-   sesuai dengan nilai yang disimpan*/
+   sesuai dengan nilai yang disimpan */
   if (email == expectedEmail && password == expectedPassword) {
     /* Comment : Jika sesuai maka program akan berpindah ke halaman home */
     goToHome();
